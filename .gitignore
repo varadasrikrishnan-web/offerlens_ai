@@ -1,0 +1,22 @@
+﻿# Secrets
+.env
+*.env
+!.env.example
+
+# Python virtual environments and caches
+.venv/
+backend/.venv/
+__pycache__/
+*.py[cod]
+
+# React / Vite
+node_modules/
+frontend/node_modules/
+dist/
+frontend/dist/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
